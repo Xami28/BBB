@@ -6,7 +6,7 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|  23.8.22 | 0.0.1   | Ich strarte das Projekt  |
+|  23.8.22 | 0.0.1| Ich strarte das Projekt  |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -22,7 +22,7 @@ Ein Spiel das dich bittet eine per Zufall augewählte Zahl zu erraten.
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss            | F    | Als ein Spieler möchte ich, dass Programm Feedback gibt, damit ich weiss ob meine Zahl richtig oder falsch ist. |
 | 2    | Muss            | F    | Als ein Spieler möchte ich, dass das Programm eine zufällige Zahl aussucht, damit ich sei erraten kann. |
-| 3    | Kann            | Q    | Als ein Spieler müchte ich, dass die Richtige Zahl grün geschrieben ist, damit sie raussticht.|
+| 3    | Kann            | Q    | Als ein Spieler müchte ich, dass die Richtige Zahl grün geschrieben ist, damit sie raussticht. |
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
