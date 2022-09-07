@@ -29,7 +29,7 @@ Ein Spiel das dich bittet eine per Zufall augewählte Zahl zu erraten.
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Frage Zahl   | Zuffälige Zahl|richtig oder falsch|
-| ...  |              |         |                   |
+| 1.2  | Gestellte Frage| Ausgewählte Zahl| Anhabe richtig oder Falsch und wiederholte Frage|
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
