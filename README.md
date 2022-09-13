@@ -1,14 +1,12 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
 #### Lucena Samuel
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  23.8.22 | 0.0.1| Ich strarte das Projekt  |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 23.8.22|0.1.1|ich habe angefangen zu programieren                                |
+| 30.8.22| 1.0.0   | Das Program läuft fehlerfrei                                |
 
 ## 1 Informieren
 
@@ -23,13 +21,16 @@ Ein Spiel das dich bittet eine per Zufall augewählte Zahl zu erraten.
 | 1    | Muss            | F    | Als ein Spieler möchte ich, dass Programm Feedback gibt, damit ich weiss ob meine Zahl richtig oder falsch ist. |
 | 2    | Muss            | F    | Als ein Spieler möchte ich, dass das Programm eine zufällige Zahl aussucht, damit ich sei erraten kann. |
 | 3    | Kann            | Q    | Als ein Spieler möchte ich, dass die Richtige Zahl grün geschrieben ist, damit sie raussticht. |
+|3| Muss| F| Bei Fehleingabe error anzeigen|
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Frage Zahl   | Zuffälige Zahl|richtig oder falsch|
-| 1.2  | Gestellte Frage| Ausgewählte Zahl| Anhabe richtig oder Falsch und wiederholte Frage|
+| 1.2  | Gestellte Frage| Ausgewählte Zahl| Angabe richtig oder Falsch und wiederholte Frage|
+|2.1|Frage Zahl erraten|Richtige Zahl|Spiel gewonnen|
+|
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -42,7 +43,8 @@ Ein Spiel das dich bittet eine per Zufall augewählte Zahl zu erraten.
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 23.8.22|Programm  |Das Programm das die zufällige Zahl generiert.| ca.30min|
-| 1.B  | 23.8.22|Färbung Zahl|Den Code wo die Grün fur die richtige Zahl anzeigt.|ca. 5min|
+| 1.B  | 23.8.22|Program   |Das Program entscheidet welche Zahl richtig oder falsch ist.|ca.10min| 
+| 1.C  | 23.8.22|Färbung Zahl|Den Code wo die Grün fur die richtige Zahl anzeigt.|ca. 5min|
 
 Total: 
 
